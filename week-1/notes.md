@@ -6,7 +6,7 @@
 
 - 1989 the World Wide Web was created by Tim Berners Lee: an open platform to be able to share information easily and locate it from anywhere
 
-- The web is made up of three key things:
+The web is made up of three key things:
 
 1. **HTML**: describes content and its nature
 2. **URLs**: address to uniquely identify websites and files on the web
