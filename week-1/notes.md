@@ -35,7 +35,7 @@ HTML is made up of 4 things
 
 - **img tag** is a self closing tag!
 
-## 2. Writing our first CSS
+## 3. Writing our first CSS
 
 CSS grabs elements from a page and allows us to apply styles to them
 
@@ -45,6 +45,8 @@ CSS grabs elements from a page and allows us to apply styles to them
 p {
     color: #ff083;
 }
+
+## 4. Sally Hart Photography Part 1
 
 
 
