@@ -1,0 +1,26 @@
+body {
+ width: 620px;
+ margin: 40px auto 40px auto;
+ 
+ font-family: 'Source Serif Pro', serif;
+ font-size: 20px;
+
+ background-color: fuchsia;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    color: #fff;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: yellow;
+}

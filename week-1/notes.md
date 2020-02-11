@@ -35,4 +35,16 @@ HTML is made up of 4 things
 
 - **img tag** is a self closing tag!
 
+## 2. Writing our first CSS
+
+CSS grabs elements from a page and allows us to apply styles to them
+
+1. selector: p {}
+2. css rules: name of rule (property): value;
+
+p {
+    color: #ff083;
+}
+
+
 
