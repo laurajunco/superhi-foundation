@@ -1,3 +1,3 @@
 # superhi-foundation
 
-test test
+Notes and exercises from the superhi HMTL, CSS and Javascript foundation course :)
