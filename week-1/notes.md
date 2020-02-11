@@ -23,3 +23,16 @@
 - All html content is organized into boxes
 
 ## 2. Writing our first HTML
+
+HTML is made up of 4 things
+
+1. Tags: <h1> has an opening and a closing tag </h1>
+2. Content: <h1> contents inside tags </h1>
+3. Comments: text inside code that wont display on the browser
+4. Attributes: describe certain parts of the page with a bit of more information. the go in the opening tag.
+
+- There are about 100 tags (for all kinds of content) but usually you use about 15.
+
+- img tag: self closing tag!
+
+
