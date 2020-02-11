@@ -1,4 +1,4 @@
-# Week 1 Notes
+# Week 1
 
 ## 1. What is the World Wide Web?
 
@@ -15,7 +15,7 @@ The web is made up of three key things:
 -  The internet existed before the web, It has been around since the 60s. Includes: emails, the web, apps, the cloud, internet of things. 
 
 
-#### Making websites
+#### Making websites:
 
 - **HTML**: describes the content on a website. 
 - **CSS**: describes how content should look on the page
