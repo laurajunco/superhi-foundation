@@ -22,4 +22,4 @@
 
 - All html content is organized into boxes
 
-## 2. What is SuperHi?
+## 2. Writing our first HTML
