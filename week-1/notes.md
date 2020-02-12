@@ -46,7 +46,7 @@ p {
     color: #ff083;
 }
 
-## 4. Sally Hart Photography Part 1
+## 4. Sally Hart Photography
 
 - **Header tag** < header >: a container for introductory content or navigational links
 
@@ -70,6 +70,10 @@ p {
 **vw**: viewport width.
 
 These are ways to link the size of viewport to the size of the page elements
+
+**position: fixed**: precisely positions elements in relation to browser viewport. These elements are in an independant layer on the screen.
+
+- top, left, bottom, and right: allmost always go hand in hand with position: fixed;
 
 
 

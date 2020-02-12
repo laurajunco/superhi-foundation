@@ -2,13 +2,25 @@
 
 body {
     font-family: "Cooper Hewitt";
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     background-color: #004d9d;
+    margin: 0;
 }
 
 header {
     font-size: 24px;
+    /* using fixed position, precisely positions elements in relation to browser viewport*/
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    line-height: 0.7;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
 }
 
 section {
