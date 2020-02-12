@@ -48,5 +48,16 @@ p {
 
 ## 4. Sally Hart Photography Part 1
 
+- **Header tag** < header >: a container for introductory content or navigational links
+
+- **Section tag** < section >: defines sections in a document. 
+
+- The background image will be added with CSS
+
+- **href="mailto:"**: opens up email client installed on pc or phone
+
+-**href="tel:"**: opens phone app to call that number
+
+
 
 
