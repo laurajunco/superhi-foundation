@@ -58,6 +58,19 @@ p {
 
 -**href="tel:"**: opens phone app to call that number
 
+- **background-image**: receives url of image
+
+**background-size**
+- auto = shows image original size
+- cover =  image covers the entire container without skewing or repeating the image
+- contain = image is always fully visible
+
+**vh**: viewport height, relative to the height of browser window
+
+**vw**: viewport width.
+
+These are ways to link the size of viewport to the size of the page elements
+
 
 
 
