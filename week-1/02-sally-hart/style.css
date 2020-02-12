@@ -2,19 +2,17 @@
 
 body {
     font-family: "Cooper Hewitt";
-    font-size: 18px;
+    font-size: 22px;
     color: #ffffff;
     background-color: #004d9d;
     margin: 0;
 }
 
 header {
-    font-size: 24px;
     /* using fixed position, precisely positions elements in relation to browser viewport*/
     position: fixed;
     top: 20px;
     left: 20px;
-    line-height: 0.7;
 }
 
 footer {
@@ -26,16 +24,64 @@ footer {
 section {
     width: 100%;
     height: 100vh;
-    background-image: url(assets/sally_1.jpg);
     /* background image will cover full width and height of our section without skewing or repeating the image */
     background-size: cover;
+    /* fixes the background to the browser viewport rather than to the section */
+    background-attachment: fixed;
+}
+
+.image_1 {
+    background-image: url(assets/sally_1.jpg);
+}
+
+.image_2 {
+    background-image: url(assets/sally_2.jpg);
+}
+
+.image_3 {
+    background-image: url(assets/sally_3.jpg);
+}
+
+.image_4 {
+    background-image: url(assets/sally_4.jpg);
+}
+
+.image_5 {
+    background-image: url(assets/sally_5.jpg);
+}
+
+.image_6 {
+    background-image: url(assets/sally_6.jpg);
+}
+
+.image_7 {
+    background-image: url(assets/sally_7.jpg);
+}
+
+.image_8 {
+    background-image: url(assets/sally_8.jpg);
 }
 
 h1 {
-    font-size: 24px; 
+    font-size: 32px; 
+    margin-bottom: 5px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* pseudoselesctor: apply styles to element depending on thir interaction state */
+a:hover {
+    color: #dddddd;
+}
+
+p {
+    margin-top: 0;
+}
+
+/* selects only a tags inside the footer tag */
+footer a {
+    margin-right: 5px;
 }

@@ -75,6 +75,18 @@ These are ways to link the size of viewport to the size of the page elements
 
 - top, left, bottom, and right: allmost always go hand in hand with position: fixed;
 
+- general styles in the < body > tag get applied to all elements. It is needed to go to the specific element and override those styles
 
+- pseudoselector: a:hover
+
+**classes** a class name allows to select several items on the apge and apply styles to them
+
+**How does ccs know when to apply rules or override styles??**
+
+1. Reads css file from top to bottom. last thing on the css is the last thing applied to the page
+
+2. With classes you can single out elements
+
+**background-attachment**: fixed; = parallax effect, fixes the background to the browser viewport rather than to the section
 
 
