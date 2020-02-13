@@ -94,4 +94,4 @@ These are ways to link the size of viewport to the size of the page elements
 
 **Scalable Vector Graphics**: SVG stands for scalable vector graphics which means they don’t pixelate when really large. Typically transparent in background so you can change the color of the background when styling in CSS.
 
-- svg can be added using the < img > tag
+- svg can be added using the < img > tag or the background-img css property
