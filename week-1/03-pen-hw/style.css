@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+section {
+    height:100vh;
+    width: 100%;
+    background-position: center; /* centers image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.black {
+    background-color: #000;
+}
+
+section.white {
+    background-color: #fff;
+}
+
+section.green {
+    background-color: #00F10A;
+}
+
+section.the-pen{
+    background-image: url("Assets/the-pen.svg")
+}
+section.is-mightier{
+    background-image: url("Assets/is-mightier.svg")
+}
+section.than{
+    background-image: url("Assets/than.svg")
+}
+section.the-sword{
+    background-image: url("Assets/the-sword.svg")
+}
+section.end{
+    background-image: url("Assets/end.svg")
+}
+
+
+footer {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+/* makes the site responsive */
+@media (max-width: 800px) {
+    section {
+      background-attachment: scroll;
+      height: 60vw;
+    }
+  }

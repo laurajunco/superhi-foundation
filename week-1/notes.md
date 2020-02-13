@@ -90,3 +90,8 @@ These are ways to link the size of viewport to the size of the page elements
 **background-attachment**: fixed; = parallax effect, fixes the background to the browser viewport rather than to the section
 
 
+## 5. Homework: the pen is mightier than the sword
+
+**Scalable Vector Graphics**: SVG stands for scalable vector graphics which means they don’t pixelate when really large. Typically transparent in background so you can change the color of the background when styling in CSS.
+
+- svg can be added using the < img > tag
