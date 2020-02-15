@@ -10,4 +10,9 @@
 
 ### Padding, margins and the box model
 
+- background images by default tile themselves.
+- by using auto margins the content is automatically centered.
+- Margins: create space on the outside of elements.
+- Padding: create space on the inside of elements.
 
+**line height**: for larger font sizes the rule of thumb is to decrease the line height a bit. 1.3 - 1.6 is generally good.

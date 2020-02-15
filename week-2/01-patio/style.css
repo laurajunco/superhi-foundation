@@ -1,8 +1,49 @@
 body {
-    margin: 40px auto 0 auto;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;    
+    background-image: url('assets/background.svg');
+    margin: 0 auto 0 auto;
     width: 640px;
+    padding-top: 40px;
+
+    /* line height acts as a multiplier of the font size */
+    line-height: 1.5;
 }
 
-section img {
+header{
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+nav {
+    background-color: #f05d5d;
+    /* padding order: top, right, bottom, left */
+    padding: 20px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+section {
+    background-color: #5000ff;
+    padding: 40px;
+}
+/* section img {
     max-width: 640px;
+} */
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.2;
 }
