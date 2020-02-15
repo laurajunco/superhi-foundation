@@ -8,6 +8,6 @@
 
 **svg**: vector format for the web. You can increase the size of image without losing quality. Files are very small, made by sets of instrutions.
 
-
+### Padding, margins and the box model
 
 
