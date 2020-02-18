@@ -16,3 +16,7 @@
 - Padding: create space on the inside of elements.
 
 **line height**: for larger font sizes the rule of thumb is to decrease the line height a bit. 1.3 - 1.6 is generally good.
+
+### Blockquotes and borders
+
+- borders go outside of padding but inside of the box.

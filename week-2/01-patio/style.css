@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
 }
 
-header{
+header {
     background-color: #ffffff;
     padding: 40px;
 }
@@ -33,9 +33,6 @@ section {
     background-color: #5000ff;
     padding: 40px;
 }
-/* section img {
-    max-width: 640px;
-} */
 
 h1 {
     margin: 0;
@@ -46,4 +43,34 @@ h2 {
     font-weight: 400;
     margin: 0;
     line-height: 1.2;
+}
+
+.image {
+    padding: 0;
+}
+
+.image img{
+    max-width: 640px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 40px 0;
+}
+
+.map {
+    width: 100%;
+}
+
+.contact p {
+    margin-top: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: solid 2px #f05d5d;
+    padding-bottom: 2px;
 }
