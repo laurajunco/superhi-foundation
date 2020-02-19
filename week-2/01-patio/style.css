@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Lora;
     font-size: 18px;
@@ -5,7 +8,9 @@ body {
     color: #ffffff;    
     background-image: url('assets/background.svg');
     margin: 0 auto 0 auto;
-    width: 640px;
+
+    /* this will make our page width fluid up until it reaches 640px*/
+    max-width: 640px;
     padding-top: 40px;
 
     /* line height acts as a multiplier of the font size */
@@ -29,6 +34,13 @@ nav a {
     margin-right: 15px;
 }
 
+/* style that gets applied when hovering over eachnavigation link */
+nav a:hover {
+    color: #5000ff;
+    border-bottom: solid 2px #fff;
+    padding-bottom: 1px;
+}
+
 section {
     background-color: #5000ff;
     padding: 40px;
@@ -43,14 +55,16 @@ h2 {
     font-weight: 400;
     margin: 0;
     line-height: 1.2;
+    font: inherit;
 }
 
 .image {
     padding: 0;
 }
 
-.image img{
-    max-width: 640px;
+.image img {
+    max-width: 100%;
+    height: auto;
 }
 
 blockquote {

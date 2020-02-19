@@ -20,3 +20,11 @@
 ### Blockquotes and borders
 
 - borders go outside of padding but inside of the box.
+
+### Navigation hovers and max widths
+
+- mobile browsing has alost overtaken desktop browsing
+- responsive design is building with a flexible mindset
+- use of fluid containers
+
+
