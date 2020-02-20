@@ -23,8 +23,16 @@
 
 ### Navigation hovers and max widths
 
-- mobile browsing has alost overtaken desktop browsing
-- responsive design is building with a flexible mindset
-- use of fluid containers
+- Mobile browsing has almost overtaken desktop browsing
+- Responsive design is building with a flexible mindset
+- Use of fluid containers
 
+### Making our website responsive
 
+- **Media queries:** Are ways for us to write CSS that gets applied only at certain screen widths.
+- The mobile screen is very tall and narrower
+- They lets us decide **when** we want to change things on our page**
+
+- block elements: stack on top of each other
+- inline elements: anchor tags, span tags stack side by side.
+- cssreference.io

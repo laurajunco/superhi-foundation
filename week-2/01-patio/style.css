@@ -38,7 +38,6 @@ nav a {
 nav a:hover {
     color: #5000ff;
     border-bottom: solid 2px #fff;
-    padding-bottom: 1px;
 }
 
 section {
@@ -55,7 +54,6 @@ h2 {
     font-weight: 400;
     margin: 0;
     line-height: 1.2;
-    font: inherit;
 }
 
 .image {
@@ -87,4 +85,40 @@ blockquote {
     color: #fff;
     border-bottom: solid 2px #f05d5d;
     padding-bottom: 2px;
+}
+
+/* Css selector that selects a certain screen width
+below a screen width of 720px, apply the following styles*/
+@media (max-width: 720px) {
+
+    /* this rule applies to sections and headers */
+    section, header {
+        padding: 20px;
+    }
+
+    nav {
+        padding: 10px 20px;
+    }
+
+    h2, blockquote {
+        font-size: 24px;
+    }
+
+    body {
+        font-size: 16px;
+        padding-top: 0;
+    }
+
+    nav a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    nav a:hover {
+        border: none;
+    }
+
+    blockquote {
+        margin: 20px 0;
+    }
 }
