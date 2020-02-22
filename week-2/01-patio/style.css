@@ -55,6 +55,9 @@ h2 {
     margin: 0;
     line-height: 1.2;
 }
+a {
+    text-decoration: none;
+}
 
 .image {
     padding: 0;
@@ -81,7 +84,6 @@ blockquote {
 }
 
 .contact a {
-    text-decoration: none;
     color: #fff;
     border-bottom: solid 2px #f05d5d;
     padding-bottom: 2px;
