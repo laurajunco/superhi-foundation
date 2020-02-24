@@ -13,3 +13,4 @@ Notes and exercises from the superhi HMTL, CSS and Javascript foundation course 
 1. [Patio](http://laurajunco.me/superhi-foundation/week-2/01-patio)
 2. [Source (hw)](http://laurajunco.me/superhi-foundation/week-2/02-source-hw)
 
+  
