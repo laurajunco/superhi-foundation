@@ -17,3 +17,6 @@
 - In doing that the parent element has no awareness of them being inside them.
 - we need to force the header to recognize its inside floating elements
 - Using overflow: hidden makes the parent container recognize its child floating elements size.
+
+### background images
+- background-size: cover = image takes full width and height of container
