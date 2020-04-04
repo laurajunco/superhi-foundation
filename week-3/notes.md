@@ -20,3 +20,7 @@
 
 ### background images
 - background-size: cover = image takes full width and height of container
+
+
+### percentage values
+- By using a percentage value the size of the element is going to be relative to whatever container it's inside of.

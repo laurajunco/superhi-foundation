@@ -60,3 +60,12 @@ header nav a {
     max-width: 400px;
     margin: 0 auto;
 }
+
+.flowers {
+    overflow: hidden;
+}
+
+.flowers img {
+    float: left;
+    width: 33.3333%;
+}
