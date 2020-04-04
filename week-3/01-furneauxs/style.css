@@ -1,0 +1,31 @@
+body {
+    font-family: 'David Libre', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #48353a;
+    margin: 0;
+}
+
+header {
+    padding: 10px 20px;
+    /* makes element respect its child elements size*/
+    overflow: hidden; 
+    background-color: rgba(255, 255, 255, 0.75);
+    /*position: fixed;*/
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin: 3px 0;
+}
+
+header nav a {
+    color: #48353a;
+    text-decoration: none;
+    margin-left: 15px;
+}
