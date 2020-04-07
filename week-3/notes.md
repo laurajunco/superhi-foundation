@@ -30,3 +30,10 @@
 
 ### html entities
 - &copy; allows to put symbols and icons inside html
+
+
+### centering images
+- you can also use text-align: center;
+
+
+### minimun size screen is usually no less than 320px

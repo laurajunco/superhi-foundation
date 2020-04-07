@@ -1,13 +1,16 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
 body {
     font-family: 'David Libre', serif;
     font-size: 16px;
     line-height: 1.5;
     color: #48353a;
     margin: 0;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
 }
 
 header {
@@ -68,4 +71,36 @@ header nav a {
 .flowers img {
     float: left;
     width: 33.3333%;
+}
+
+.quotes {
+    overflow: hidden;
+}
+
+.quotes div {
+    width: 50%;
+    float: left;
+    text-align: center; /* centers images and text */
+    padding: 50px 20px 40px 20px;
+}
+
+.cream-bg {
+    background-color: #f7f1ee;
+}
+
+.quotes img {
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.quotes blockquote {
+    font-size: 24px;
+    line-height: 1.16;
+    font-weight: 700;
+    margin: 20px auto 0 auto;
+    max-width: 400px;
+}
+
+.quotes p {
+    margin-top: 10px;
 }
