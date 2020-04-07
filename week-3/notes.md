@@ -24,3 +24,9 @@
 
 ### percentage values
 - By using a percentage value the size of the element is going to be relative to whatever container it's inside of.
+
+- Ellipsis caracter … (alt + l)
+
+
+### html entities
+- &copy; allows to put symbols and icons inside html
